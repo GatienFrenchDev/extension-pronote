@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "ssp";
+    src: url(rsc/fonts/ssp_regular.ttf);
+}
+
+@font-face {
+    font-family: "ssp-b";
+    src: url(rsc/fonts/ssp_bold.ttf);
+}
+
+@font-face {
+    font-family: "ssp-l";
+    src: url(rsc/fonts/ssp_light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin-top: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img{
+    height: 8vh;
+}
+
+#titre{
+    margin-left: 10px;
+    margin-right: 6px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: 'ssp';
+}
+
+#plus{
+    font-family: "ssp";
+    font-size: 23px;
+    transform: translateY(-10px);
+}
+
+h1#principale{
+    font-family: "ssp-b";
+    font-size: 65px;
+    margin-left: 10%;
+    margin-top: 16vh;
+    color: #252525;
+}
+
+
+div.phrases{
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+div.phrase{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div.phrase p{
+    margin-left: 16px;
+    font-family: "ssp-l";
+    font-size: 25px;
+}
+
+div.obtenir_btn{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    width: 225px;
+    border-radius: 10px;
+    padding: 5px; 
+    margin-top: 15px;
+    transition: transform .2s
+}
+
+div#chrome{
+    margin-top: 20px;
+    background-color: #0aad03;
+}
+
+div#firefox{
+    background-color: #20123a;
+}
+
+p#obtenir{
+    margin-left: 8px;
+    color: #fff;
+    font-family: 'ssp-b';
+    text-transform: uppercase;
+}
+
+div.obtenir_btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+img#bg{
+    scale: .9;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+
+@media screen and (max-width: 1600px) {
+    img#bg{
+        display: none;
+    }
+}
