@@ -110,8 +110,20 @@ img#bg{
     right: 0%;
 }
 
+#github img{
+    height: 33px;
+}
+
+#github{
+    background-color: #161b22;
+}
+
+body{
+    overflow-x: hidden;
+}
 @media screen and (max-width: 1600px) {
     img#bg{
-        display: none;
+        scale: .75;
+        left: 12%;
     }
 }
