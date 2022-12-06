@@ -1,4 +1,4 @@
-const url_chrome_store = "https://chrome.google.com/webstore/detail/ipoinflndgnlmgminbilaoajdlfbhgbb"
+const url_chrome_store = "https://chrome.google.com/webstore/detail/pronote-%20%20/plkafnalbppdppjehbebdocafmodbbdk"
 const url_firefox_addon = "https://addons.mozilla.org/fr/firefox/addon/pronote/"
 
 
