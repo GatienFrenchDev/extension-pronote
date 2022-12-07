@@ -118,12 +118,45 @@ img#bg{
     background-color: #161b22;
 }
 
-body{
+*{
     overflow-x: hidden;
 }
 @media screen and (max-width: 1600px) {
     img#bg{
         scale: .75;
         left: 12%;
+    }
+}
+
+@media (max-width : 550px) {
+    img#bg{
+        display: none;
+    }
+    
+    div.navbar img{
+        height: 50px;
+    }
+
+    div.navbar h3#titre{
+        font-size: 28px;
+    }
+
+    h1#principale{
+        margin-top: 5vh;
+        font-size: 45px;
+    }
+
+    div.phrase p{
+        font-size: 16px;
+    }
+
+    div.phrase img{
+        height: 24px;
+    }
+
+    div.obtenir_btn{
+        width: 300px;
+        padding: 15px;
+        font-size: 20px;
     }
 }
